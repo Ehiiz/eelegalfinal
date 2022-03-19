@@ -480,7 +480,7 @@ background-color: #888888;
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 750px){
 nav{
   background-color:white;
 }
