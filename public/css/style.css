@@ -7,6 +7,7 @@
 
 body{
   max-width: 100%;
+  background-color: white;
 }
 
 a{
@@ -40,8 +41,8 @@ nav h1{
   background: url("/images/Icon-Small-40.png");
   width: 50px;
   height: 50px;
-display: block;
-background-repeat: no-repeat;
+  display: block;
+  background-repeat: no-repeat;
 }
 
 
@@ -480,9 +481,19 @@ background-color: #888888;
 
 
 @media only screen and (max-width: 600px){
+nav{
+  background-color:white;
+}
 
 .menu{
   display: none;
+}
+
+.logo{
+  margin-left: 0;
+}
+.logo h1{
+  font-size:8px;
 }
 
 .mobile-menu{
@@ -495,7 +506,7 @@ background-color: #888888;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 8px;
   line-height: 12px;
   border-radius: 5px;
   color: white;
@@ -527,33 +538,26 @@ nav h1{
 
 .hero-text{
   padding: 30px;
-  width: 60%;
-  height: 220px;
+  width: 80%;
+  height: auto;
+  left: 10px;
+  top: 30%;
 }
 
 .hero-text h2{
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .hero-text p{
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .hero-bttn a{
   padding: 10px;
   font-size: 16px;
+  margin-top: 20px;
 
 }
-
-
-.quote h2{
-  font-size: 30px;
-}
-
-.quote-marks{
-  font-size: 25px;
-}
-
 
 .features-area{
   display: flex;
@@ -567,12 +571,12 @@ nav h1{
 }
 
 .feature-desc h2{
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 24px;
 }
 
 .feature-desc p{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .box-area{
@@ -583,7 +587,7 @@ nav h1{
 
 .feature-box{
   height: 259px;
-  width: 70%;
+  width: 98%;
   margin: 10px 0;
   justify-content: center;
 
@@ -598,10 +602,11 @@ nav h1{
   height: auto;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 .founder-area2{
-
+    padding-left: 0px
 }
 
 .founder-area2 img{
@@ -617,8 +622,10 @@ nav h1{
 }
 
 .founder-box h2{
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 22px;
+    padding-left: 0px;
+    font-size: 30px;
 }
 
 .founder-info{
@@ -647,25 +654,33 @@ nav h1{
     }
 
 .navigation-manual {
-        margin-left: -150px;
+        margin-left: -250px;
 }
 
 .navigation-auto{
-        margin-left: -150px;
+        margin-left: -250px;
 }
 
 .footer-area{
   flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding: 30px;
+}
+
+.note{
+  font-size:7px;
 }
 
 .location h3{
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 18px;
+ 
 }
 
 .location p{
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 10px;
+  line-height: 12px;
 }
 
 .location{
